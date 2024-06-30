@@ -80,7 +80,7 @@ The application allow users to select the network, delegate, and number of threa
 A detailed description of the used optimization methods
 
 ### Network quantization
-Network quantization involves reducing the precision of parameters and intermediate activation maps that are typically stored in floating-point notation. Gholami et al. [[3]](#3) indicate that the first step is to define a quantization function that maps the real values of weights or activations to lower precision values. Usually, such a function maps these values to integer values, according to the following formula:
+Network quantization involves reducing the precision of parameters and intermediate activation maps that are typically stored in floating-point notation. Gholami et al. [2021] indicate that the first step is to define a quantization function that maps the real values of weights or activations to lower precision values. Usually, such a function maps these values to integer values, according to the following formula:
 
 $Q(r)=Int(\frac{r}{S})$
 
